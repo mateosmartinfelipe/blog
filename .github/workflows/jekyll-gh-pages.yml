@@ -23,7 +23,7 @@ concurrency:
 jobs:
   # Build job
   build:
-    runs-on: [self-hosted, macOS]
+    runs-on: ubuntu-latest # [self-hosted, macOS]
     steps:
       - name: Checkout
         uses: actions/checkout@v3
